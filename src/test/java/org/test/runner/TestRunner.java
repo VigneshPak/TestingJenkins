@@ -12,6 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src\\test\\resources", 
 		glue = "org.stpdfn.reporttest",
 		dryRun=false,
+		monochrome=true,
 		plugin= {"pretty", "html:src\\test\\resources\\Reports",
 							"json:src\\test\\resources\\Reports\\JN.json"})
 public class TestRunner {

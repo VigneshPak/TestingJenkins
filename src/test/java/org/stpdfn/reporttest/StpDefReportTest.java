@@ -33,7 +33,7 @@ public class StpDefReportTest extends BaseClass{
 	public void user_click_login_button() throws InterruptedException {
 		lgnPOM = new LoginPOM();
 		lgnPOM.clickLgnBtn();
-		
+		Thread.sleep(4000);
 	}
 
 	@Then("User should be displayed with error message")

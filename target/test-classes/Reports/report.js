@@ -55,10 +55,8 @@ formatter.match({
   "location": "StpDefReportTest.user_should_be_displayed_with_error_message()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stpdfn.reporttest.StpDefReportTest.user_should_be_displayed_with_error_message(StpDefReportTest.java:43)\r\n\tat ✽.User should be displayed with error message(file:src/test/resources/Featurefiles/LoginRptTest.feature:9)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
